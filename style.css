@@ -1,0 +1,177 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#0f0f0f;
+  color:white;
+}
+
+nav{
+  align-items: center;
+  gap:20px;
+  padding:20px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+nav img {   
+   width: 75px;
+   filter: drop-shadow(0 0 8px rgba(0,119,255,0.5));
+}
+
+.project-btn:hover{
+    background: #0a84ff;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.hero{
+  height:90vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+
+.hero h2{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  max-width:700px;
+  font-size:20px;
+  color:#bdbdbd;
+  line-height:1.6;
+}
+
+a{
+  text-decoration: none;
+}
+
+.project-btn{
+  margin-top:30px;
+  padding:14px 28px;
+  border:none;
+  border-radius:10px;
+  background:white;
+  color:black;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+#projects{
+    padding: 100px 10%;
+    background: #0a0a0a;
+    color: white;
+}
+
+#projects h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-card{
+    display: flex;
+    gap: 25px;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-5px);
+    border-color: #0a84ff;
+}
+
+.project-card img{
+    width: 350px;
+    object-fit: cover;
+}
+
+.project-info{
+    padding: 25px;
+}
+
+.project-info h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.project-info p{
+    color: #bdbdbd;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.project-links a{
+    text-decoration: none;
+    color: #0a84ff;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.project-card img{
+  width:200px;
+  height: 200px;
+}
+
+#contact{
+    padding: 100px 10%;
+    text-align: center;
+    background: #0a0a0a;
+    color: white;
+}
+
+#contact h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#contact p{
+    color: #bdbdbd;
+    margin-bottom: 30px;
+}
+
+.contact-btn{
+    display: inline-block;
+    pointer-events: auto;
+    cursor: pointer;
+    text-decoration: none;
+    background: #0a84ff;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    border: 2px solid red;
+}
+
+.contact-btn:hover{
+    background: white;
+    color: black;
+}
