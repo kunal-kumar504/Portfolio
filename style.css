@@ -168,7 +168,6 @@ html{
     padding: 14px 28px;
     border-radius: 10px;
     transition: 0.3s ease;
-    border: 2px solid red;
 }
 
 .contact-btn:hover{
